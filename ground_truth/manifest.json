@@ -1,69 +1,10 @@
 {
   "figma_file_key": "C9pTFArzeIYdtuLla2wV8w",
-  "total_frames": 9,
+  "total_frames": 4,
   "frames": [
-    {
-      "name": "Homepage",
-      "node_id": "20:2",
-      "gt_image": "Homepage-Desktop.png",
-      "target_route": "/",
-      "viewport": "desktop"
-    },
-    {
-      "name": "Homepage Mobile",
-      "node_id": "35:740",
-      "gt_image": "Homepage-Mobile.png",
-      "target_route": "/",
-      "viewport": "mobile"
-    },
-    {
-      "name": "Product Detail Page",
-      "node_id": "1:2",
-      "gt_image": "ProductDetail-Desktop.png",
-      "target_route": "/product/one-life-graphic-tshirt",
-      "viewport": "desktop"
-    },
-    {
-      "name": "Product Detail Page Mobile",
-      "node_id": "35:1062",
-      "gt_image": "ProductDetail-Mobile.png",
-      "target_route": "/product/one-life-graphic-tshirt",
-      "viewport": "mobile"
-    },
-    {
-      "name": "Category Page",
-      "node_id": "26:855",
-      "gt_image": "Category-Desktop.png",
-      "target_route": "/category/casual",
-      "viewport": "desktop"
-    },
-    {
-      "name": "Category Page Mobile",
-      "node_id": "38:234",
-      "gt_image": "Category-Mobile.png",
-      "target_route": "/category/casual",
-      "viewport": "mobile"
-    },
-    {
-      "name": "Cart",
-      "node_id": "31:32",
-      "gt_image": "Cart-Desktop.png",
-      "target_route": "/cart",
-      "viewport": "desktop"
-    },
-    {
-      "name": "Cart Mobile",
-      "node_id": "39:1045",
-      "gt_image": "Cart-Mobile.png",
-      "target_route": "/cart",
-      "viewport": "mobile"
-    },
-    {
-      "name": "Filters Modal",
-      "node_id": "38:679",
-      "gt_image": "Filters-Mobile.png",
-      "target_route": "/category/casual?filters=open",
-      "viewport": "mobile"
-    }
+    {"name": "Homepage", "node_id": "20:2", "gt_image": "Homepage.png", "target_route": "/"},
+    {"name": "ProductDetailPage", "node_id": "1:2", "gt_image": "ProductDetailPage.png", "target_route": "/product/:id"},
+    {"name": "CategoryPage", "node_id": "26:855", "gt_image": "CategoryPage.png", "target_route": "/category/:slug"},
+    {"name": "Cart", "node_id": "31:32", "gt_image": "Cart.png", "target_route": "/cart"}
   ]
 }
