@@ -1,0 +1,10 @@
+{
+  "figma_file_key": "C9pTFArzeIYdtuLla2wV8w",
+  "total_frames": 4,
+  "frames": [
+    {"name": "Homepage", "node_id": "20:2", "gt_image": "Homepage.png", "target_route": "/"},
+    {"name": "ProductDetailPage", "node_id": "1:2", "gt_image": "ProductDetailPage.png", "target_route": "/product/:id"},
+    {"name": "CategoryPage", "node_id": "26:855", "gt_image": "CategoryPage.png", "target_route": "/category/:slug"},
+    {"name": "Cart", "node_id": "31:32", "gt_image": "Cart.png", "target_route": "/cart"}
+  ]
+}
