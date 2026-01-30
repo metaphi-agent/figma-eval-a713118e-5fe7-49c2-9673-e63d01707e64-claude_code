@@ -1,78 +1,58 @@
-# SHOP.CO - E-commerce Website
+# SHOP.CO E-commerce Website
 
-A modern, fully-responsive e-commerce website built from Figma design to production-ready React code.
-
-## Features
-
-- 🏠 **Homepage** with hero section, new arrivals, top selling products, and customer reviews
-- 🛍️ **Product Detail Page** with image gallery, size/color selection, and customer reviews
-- 📦 **Category Page** with advanced filters (price, color, size, dress style)
-- 🛒 **Shopping Cart** with quantity management and order summary
-- 📱 **Fully Responsive** - Works seamlessly on desktop, tablet, and mobile
-- ⚡ **Fast Performance** with lazy loading and optimized images
-- 🎨 **Tailwind CSS v4** for modern styling
+A modern e-commerce website built with React, TypeScript, and Tailwind CSS, converted from a Figma design.
 
 ## Tech Stack
 
 - **React 19** - UI library
-- **React Router v7** - Client-side routing
-- **Tailwind CSS v4** - Styling
-- **Vite** - Build tool and dev server
-- **Framer Motion** - Animations
-- **Lucide React** - Icon library
 - **TypeScript** - Type safety
+- **Vite 6** - Build tool
+- **Tailwind CSS v4** - Styling
+- **React Router v7** - Client-side routing
+- **Framer Motion** - Animations
+
+## Features
+
+- **Homepage** - Hero section, new arrivals, top selling products, browse by style, customer reviews
+- **Product Detail Page** - Image gallery, color/size selection, reviews tab, related products
+- **Category Page** - Sidebar filters (price, color, size, style), product grid, pagination
+- **Cart Page** - Cart items management, order summary, promo codes
 
 ## Getting Started
 
-### Installation
-
 ```bash
+# Install dependencies
 npm install
-```
 
-### Development
-
-```bash
+# Start development server
 npm run dev
-```
 
-Open [http://localhost:5173](http://localhost:5173) in your browser.
-
-### Build
-
-```bash
+# Build for production
 npm run build
 ```
-
-The built files will be in the `dist` directory.
 
 ## Project Structure
 
 ```
 src/
 ├── components/
-│   ├── ui/              # Reusable UI components (Button, Input, ProductCard)
-│   └── blocks/          # Layout components (Header, Footer)
-├── pages/               # Page components
-│   ├── HomePage.tsx
-│   ├── ProductDetailPage.tsx
-│   ├── CategoryPage.tsx
-│   └── CartPage.tsx
-├── data/                # Mock data
-│   └── products.ts
-├── App.tsx              # Main app component with routes
-├── main.tsx             # App entry point
-└── index.css            # Global styles and Tailwind config
+│   ├── ui/          # Reusable UI components (Button, StarRating)
+│   └── blocks/      # Page blocks (Header, Footer, ProductCard)
+├── pages/           # Page components
+├── data/            # Mock data
+├── App.tsx          # Main app with routing
+├── main.tsx         # Entry point
+└── index.css        # Global styles and design tokens
 ```
 
-## Design
+## Design Tokens
 
-Original Figma design: [E-commerce Website Template (Freebie)](https://www.figma.com/design/C9pTFArzeIYdtuLla2wV8w/E-commerce-Website-Template--Freebie---Community-)
+The design uses custom CSS variables defined in `index.css`:
+
+- **Colors**: Primary black, neutrals, accent red, rating gold
+- **Typography**: Integral CF (display), Satoshi (body)
+- **Border radius**: sm (8px), md (16px), lg (20px), xl (40px), full (62px)
 
 ## License
 
 MIT
-
----
-
-Built with [Claude Code](https://claude.com/claude-code)
