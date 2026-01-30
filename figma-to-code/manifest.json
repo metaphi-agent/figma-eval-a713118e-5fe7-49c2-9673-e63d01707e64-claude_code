@@ -1,9 +1,11 @@
 {
   "session_id": "figma_20260130_134417",
   "created_at": "2026-01-30T13:44:17.419890+00:00",
-  "updated_at": "2026-01-30T14:15:00.000000+00:00",
+  "updated_at": "2026-01-30T14:52:35.073317+00:00",
   "phase": "complete",
   "figma_file_key": "C9pTFArzeIYdtuLla2wV8w",
-  "preview_url": "https://ta-01kg7jq6fnc6bfv3nzyvetngba-5173.wo-9z4658wmig2u81deeiu15kn5n.w.modal.host",
-  "github_repo": "metaphi-agent/figma-eval-a713118e-5fe7-49c2-9673-e63d01707e64-claude_code"
+  "preview_url": "https://ta-01kg7p4w1vsr20nz05bf0h085k-5173.wo-0mz9g3590pr79nywukqp9vz4u.w.modal.host",
+  "github_repo": "metaphi-agent/figma-eval-a713118e-5fe7-49c2-9673-e63d01707e64-claude_code",
+  "dist_path": "/figma-claude/claude-opus-4-5-20251101/a713118e-5fe7-49c2-9673-e63d01707e64/dist",
+  "completed_at": "2026-01-30T14:52:35.073375+00:00"
 }
